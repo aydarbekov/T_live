@@ -1,6 +1,8 @@
 import csv
 import time
 # from bs4 import BeautifulSoup
+from _hashlib import new
+
 import openpyxl
 import requests
 from openpyxl import Workbook
@@ -416,27 +418,6 @@ new_profiles = [
     "https://www.facebook.com/belle.bell.391?comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQwNTIxNzUzMzg0MjI%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
 ]
 profiles = [
-    'https://www.facebook.com/groups/123754788028526/user/100052102488083/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100050758069290/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054551864880/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100043912823068/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053041695742/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053041695742/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053041695742/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047128329740/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100009196628675/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054349990385/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100045693691894/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100042061699090/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100051490494146/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100018233329866/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100044455642600/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100048954215045/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055712866803/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100026490077162/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047967623942/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100020913130426/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055552380912/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
     'https://www.facebook.com/groups/1412264215689407/user/100044486738359/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
     'https://www.facebook.com/groups/1412264215689407/user/100052190092309/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
     'https://www.facebook.com/groups/1412264215689407/user/100047480018981/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
@@ -580,12 +561,12 @@ profiles = [
     'https://www.facebook.com/groups/1412264215689407/user/100025028116859/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R'
 ]
 prof_links = []
-for i in new_profiles:
-    if i not in profiles:
-        if i not in prof_links:
-            prof_links.append(i)
-print(prof_links)
-print(len(prof_links))
+
+for i in profiles:
+    if i not in prof_links:
+        prof_links.append(i)
+
+
 # with open('fb_profile.csv', 'w', newline='') as file:
 #     writer = csv.writer(file, delimiter='|')
 #     writer.writerow(["Ссылка", "Имя", "кол-во постов", "дата последнего поста", "фото профиля", "размер фото",
@@ -646,7 +627,7 @@ option.add_argument("start-maximized")
 option.add_argument("--disable-extensions")
 # option.add_argument("--headless")
 option.add_argument("--window-size=1325x744")
-# option.add_argument("--remote-debugging-port=9221")
+option.add_argument("--remote-debugging-port=9221")
 # Pass the argument 1 to allow and 2 to block
 option.add_experimental_option("prefs", {
     "profile.default_content_setting_values.notifications": 1
@@ -719,16 +700,27 @@ for profile in prof_links:
     try:
         last_post = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()]")
         time_post = last_post.find_element_by_css_selector('a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
+        hover = ActionChains(driver).move_to_element(time_post)
+        hover.perform()
+        time.sleep(1)
     except:
-        last_post = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()-3]")
-        time_post = last_post.find_element_by_css_selector('a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
+        try:
+            last_post = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()-3]")
+            time_post = last_post.find_element_by_css_selector('a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
+            hover = ActionChains(driver).move_to_element(time_post)
+            hover.perform()
+            time.sleep(1)
+        except:
+            print('Нет публикаций')
 
-
-    hover = ActionChains(driver).move_to_element(time_post)
-    hover.perform()
-    time.sleep(1)
+    # hover = ActionChains(driver).move_to_element(time_post)
+    # hover.perform()
+    # time.sleep(1)
     try:
         time_full = driver.find_element_by_css_selector('span[class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql gk29lw5a a8c37x1j keod5gw0 nxhoafnm aigsh9s9 tia6h79c fe6kdd0r mau55g9w c8b282yb iv3no6db e9vueds3 j5wam9gi knj5qynh oo9gr5id hzawbc8m"]')
+        print(time_full.text)
+        profile_info.append(time_full.text)
+
     except:
         try:
             time_icon = last_post.find_element_by_css_selector('span[class="tojvnm2t a6sixzi8 abs2jz4q a8s20v7p t1p8iaqh k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y iyyx5f41"]')
@@ -740,38 +732,29 @@ for profile in prof_links:
             time.sleep(1)
             time_full = driver.find_element_by_css_selector(
                 'span[class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql gk29lw5a a8c37x1j keod5gw0 nxhoafnm aigsh9s9 tia6h79c fe6kdd0r mau55g9w c8b282yb iv3no6db e9vueds3 j5wam9gi knj5qynh oo9gr5id hzawbc8m"]')
+            print(time_full.text)
+            profile_info.append(time_full.text)
+
         except:
             print('some error')
+            profile_info.append('')
         # hover = ActionChains(driver).move_to_element(time_icon)
         # hover.perform()
         # time.sleep(1)
         # time_full = driver.find_element_by_css_selector('span[class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql gk29lw5a a8c37x1j keod5gw0 nxhoafnm aigsh9s9 tia6h79c fe6kdd0r mau55g9w c8b282yb iv3no6db e9vueds3 j5wam9gi knj5qynh oo9gr5id hzawbc8m"]')
 
-    print(time_full.text)
-    profile_info.append(time_full.text)
     # time.sleep(2)
 
     # Парсинг фото профиля
     try:
-        print('Ищу фото профиля и кликаю')
-        profile_photo = driver.find_element_by_css_selector('div[class="b3onmgus e5nlhep0 ph5uu5jm ecm0bbzt spb7xbtv bkmhp75w emlxlaya s45kfl79 cwj9ozl2"]').click()
-        try:
-            print('Смотрю нет ли истории')
-            time.sleep(3)
-            story_or_photo = driver.find_element_by_xpath(".//*[contains(text(), 'Посмотреть фото профиля')]").click()
-            time.sleep(3)
-            img = driver.find_element_by_css_selector('img[class="ji94ytn4 r9f5tntg d2edcug0"]')
-            width = driver.execute_script(
-                "return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalWidth")
-            height = driver.execute_script(
-                "return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalHeight")
-        except:
-            time.sleep(3)
-            img = driver.find_element_by_css_selector('img[class="ji94ytn4 r9f5tntg d2edcug0"]')
-            width = driver.execute_script(
-                "return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalWidth")
-            height = driver.execute_script(
-                "return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalHeight")
+        profile_photo = driver.find_element_by_css_selector('a[class="oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 q9uorilb mg4g778l btwxx1t3 pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb lzcic4wl abiwlrkh p8dawk7l oo9gr5id"]')
+        profile_photo_full =  profile_photo.get_attribute('href')
+        driver.get(profile_photo_full)
+        driver.implicitly_wait(10)
+        time.sleep(2)
+        img = driver.find_element_by_css_selector('img[class="gitj76qy r9f5tntg d2edcug0"]')
+        width = driver.execute_script("return document.getElementsByClassName('gitj76qy r9f5tntg d2edcug0')[0].naturalWidth")
+        height = driver.execute_script("return document.getElementsByClassName('gitj76qy r9f5tntg d2edcug0')[0].naturalHeight")
         time.sleep(2)
         print(img.get_attribute('src'))
         profile_info.append(img.get_attribute('src'))
@@ -781,34 +764,11 @@ for profile in prof_links:
         driver.back()
         time.sleep(2)
     except:
-        print('нет фото')
         profile_info.append('Нет фото')
         profile_info.append('0х0')
 
-    # try:
-    #     profile_photo = driver.find_element_by_css_selector('a[class="oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 q9uorilb mg4g778l btwxx1t3 pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb lzcic4wl abiwlrkh p8dawk7l oo9gr5id"]')
-    #     profile_photo_full =  profile_photo.get_attribute('href')
-    #     driver.get(profile_photo_full)
-    #     driver.implicitly_wait(10)
-    #     time.sleep(2)
-    #     img = driver.find_element_by_css_selector('img[class="gitj76qy r9f5tntg d2edcug0"]')
-    #     width = driver.execute_script("return document.getElementsByClassName('gitj76qy r9f5tntg d2edcug0')[0].naturalWidth")
-    #     height = driver.execute_script("return document.getElementsByClassName('gitj76qy r9f5tntg d2edcug0')[0].naturalHeight")
-    #     time.sleep(2)
-    #     print(img.get_attribute('src'))
-    #     profile_info.append(img.get_attribute('src'))
-    #     print(width)
-    #     print(height)
-    #     profile_info.append(str(width) + ' x ' + str(height))
-    #     driver.back()
-    #     time.sleep(2)
-    # except:
-    #     profile_info.append('Нет фото')
-    #     profile_info.append('0х0')
-
     # Парсинг инфо
     driver.execute_script(f"window.scrollTo(0, 0);")
-    time.sleep(2)
     infoblock = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t g5gj957u d2edcug0 hpfvmrgz rj1gh0hx buofh1pr']/div[@class='tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p']/div[@class='cb02d2ww ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm du4w35lb lzcic4wl']/div[@class='soycq5t1 l9j0dhe7']/div[@class='i09qtzwb rq0escxv n7fi1qx3 pmk7jnqg j9ispegn kr520xx4']/a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 pq6dq46d p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl l9j0dhe7 abiwlrkh p8dawk7l dwo3fsh8 ow4ym5g4 auili1gw mf7ej076 gmql0nx0 tkr6xdv7 bzsjyuwj cb02d2ww j1lvzwm4'][2]/div[@class='bp9cbjyn rq0escxv j83agx80 pfnyh3mw frgo5egb l9j0dhe7 cb02d2ww hv4rvrfc dati1w0a']")
     infoblock.click()
     time.sleep(3)
@@ -865,7 +825,6 @@ for profile in prof_links:
     parse_info("//div[4]/div[@class='oygrvhab']")
 
 
-
     # time.sleep(1)
 
     # Парсинг кол-во фото
@@ -902,9 +861,6 @@ for profile in prof_links:
                 print(ads[0])
                 hron.append(ads[0])
                 print(a)
-        profile_info.append(hron)
-        profile_info.append(a)
-
     except:
         print('НЕт фото')
         profile_info.append('[]')
@@ -932,10 +888,13 @@ for profile in prof_links:
         profile_info.append('0')
     profile_info.append(likes_list)
 
+
     # Парсинг друзей
     # time.sleep(3)
     profiles_friends = []
     driver.execute_script(f"window.scrollTo(0, 0);")
+    hover = ActionChains(driver).move_to_element(infoblock)
+    hover.perform()
     print('Ищу кнопку друзей')
     friends_btn = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t g5gj957u d2edcug0 hpfvmrgz rj1gh0hx buofh1pr']/div[@class='tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p']/div[@class='cb02d2ww ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm du4w35lb lzcic4wl']/div[@class='soycq5t1 l9j0dhe7']/div[@class='i09qtzwb rq0escxv n7fi1qx3 pmk7jnqg j9ispegn kr520xx4']/a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 pq6dq46d p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl l9j0dhe7 abiwlrkh p8dawk7l dwo3fsh8 ow4ym5g4 auili1gw mf7ej076 gmql0nx0 tkr6xdv7 bzsjyuwj cb02d2ww j1lvzwm4'][3]")
     print('Нашел кликаю друзей')
