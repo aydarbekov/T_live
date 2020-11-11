@@ -260,9 +260,9 @@ driver.implicitly_wait(10)
 # time.sleep(2)
 
 print('Жму на закрытие окоша модалки')
-WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
-
-driver.implicitly_wait(10)
+# WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
+#
+# driver.implicitly_wait(10)
 time.sleep(1)
 
 print("Логинюсь")
@@ -416,7 +416,6 @@ for profile in prof_links:
     parse_info("//div[3]/div[@class='oygrvhab']")
     # quotes
     parse_info("//div[4]/div[@class='oygrvhab']")
-
 
 
     # time.sleep(1)
