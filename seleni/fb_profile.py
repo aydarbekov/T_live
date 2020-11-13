@@ -418,147 +418,7 @@ new_profiles = [
     "https://www.facebook.com/belle.bell.391?comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQwNTIxNzUzMzg0MjI%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
 ]
 profiles = [
-    'https://www.facebook.com/groups/1412264215689407/user/100044486738359/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100052190092309/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047480018981/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100008234977777/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100055939230156/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100000518225249&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NTM4NzQxOTg1ODk%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100048232634699/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100043948157700/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100045969854303&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTIzNTM5NjQyMDg1ODA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100033262968865/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100052279621879/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100051770029722/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047566412039/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100042412996852/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047502642416/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054664223564/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100044202100477/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100044518238133/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100054171070081/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056372406998/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100045957021537/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100036381217586/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100027419792451&comment_id=Y29tbWVudDoyMTEyNzU3NDc1NTIyNzM1XzIxMTI5OTczNTg4MzIwODA%3D&__cft__[0]=AZWvMW_HYofAxJOigAhRRTeCgEkvhQaKNU6dUA1oa2bmHFzTSzDP-vkhNE5jlgBHk5SbgbDRbKx0PIY-UMXVFnvk3SW0euJUchi1I0xirul_G4wEhvUHlSXn_sEUk_1cf_I&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100045160620986/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100042733542710&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI4NzQ2Njc0ODk4NDM%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100006190037345/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054730850449/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100055004106449/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100025699149226/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055263690022/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100044486920820/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100035754803096/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100048082759651/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100048163230103/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056489840800/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100022453004396/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055882177869/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054264733206/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053953050007/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100051554710442/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100013041124475/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100049163087194/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100053781091101/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100044390021594/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100056477839450/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100030988570491/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100015854741161/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100030602916755/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100023983397582/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047986461433/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100024850065073&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI3MTU1ODc1MDU3NTE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100043306144304/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055659922035/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100026764085396/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100031599213743/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100038020716357/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100032053387417/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100045927980037&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI1NDIyMjQxODk3NTQ%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100037848123464/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/profile.php?id=100021423007458&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTIxNTA5Mzc1NjIyMTY%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056246737791/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055142845820/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100041677804803/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100057085989476/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100048498724165/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100038156122576/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100030786553934/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100033217640842/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053596011031/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100050070822367/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100031228128366/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100024006607392/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055675020388/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100050923353670/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100025616327370/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100045930036450/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100037677490416/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100028234276867/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054997775250/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100011324298197/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100050494935971/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100033884506020/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100024643729181/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100030809686924/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100019377592087/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100050639243059/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100045034641296/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047821907687/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100046324982460/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100034797668873/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055144941375/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055144941375/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100047566033874/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100039088501573/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100051523374071/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054951922754/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100047132719649/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100041776719548/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100024401227531/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100029141207551/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100046558309657/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100040502926280/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053772283140/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100035757000031/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053449866839/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100021626765232/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100042915263635/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100049842570123/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100046066148225/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100049199531638/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100034362572008/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056099473600/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054681356966/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100054681356966/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100004770045713/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100036278751145/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100049423774412/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055466874933/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100023046470501/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055903916041/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100031818406303/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100052915637697/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056500791601/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100051202895681/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100040768864420/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100052918788073/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100028551377134/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100056223578714/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/123754788028526/user/100049360817786/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055894616540/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100026270222109/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100055365330033/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100021980348735/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100027691146514/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100016266270524/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100046753444243/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100036803748608/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100042165512887/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100016967596385/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100053616048971/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R',
-    'https://www.facebook.com/groups/1412264215689407/user/100025028116859/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R'
+    'https://www.facebook.com/SvetLana1320'
 ]
 prof_links = []
 
@@ -629,9 +489,9 @@ option.add_argument("--disable-extensions")
 option.add_argument("--window-size=1325x744")
 option.add_argument("--remote-debugging-port=9221")
 # Pass the argument 1 to allow and 2 to block
-option.add_experimental_option("prefs", {
-    "profile.default_content_setting_values.notifications": 1
-})
+# option.add_experimental_option("prefs", {
+#     "profile.default_content_setting_values.notifications": 1
+# })
 
 driver = webdriver.Chrome(chrome_options=option)
 # driver.maximize_window(driver.window_handles)
@@ -641,8 +501,8 @@ driver.get("https://www.facebook.com")
 driver.implicitly_wait(10)
 # time.sleep(2)
 
-print('Жму на закрытие окоша модалки')
-WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
+# print('Жму на закрытие окоша модалки')
+# WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
 
 driver.implicitly_wait(10)
 time.sleep(1)
@@ -795,14 +655,28 @@ for profile in prof_links:
 
     # contacts
     parse_info("//div[@class='tu1s4ah4'][1]/div[@class='oygrvhab']")
+
     # websites
     parse_info("//div[@class='tu1s4ah4'][2]/div[@class='oygrvhab']")
+
     # main_info
-    parse_info("//div[@class='c9zspvje'][1]")
+    try:
+        pol = driver.find_element_by_xpath(".//*[contains(text(), 'Пол')]")
+        parse_info("//div[@class='c9zspvje'][1]")
+    except:
+        profile_info.append('Not info')
     # birthday_dates
-    parse_info("//div[@class='c9zspvje'][2]")
+    try:
+        date = driver.find_element_by_xpath(".//*[contains(text(), 'Дата рождения')]")
+        parse_info("//div[@class='c9zspvje'][2]")
+    except:
+        profile_info.append('Not data')
     # languages
-    parse_info("//div[3]/div[@class='oygrvhab']")
+    try:
+        lang = driver.find_element_by_xpath(".//*[contains(text(), 'Языки')]")
+        parse_info("//div[3]/div[@class='oygrvhab']")
+    except:
+        profile_info.append('Not languages')
 
     infos[4].click()
     time.sleep(2)
