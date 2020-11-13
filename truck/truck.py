@@ -125,7 +125,7 @@ time.sleep(0.2)
 driver.find_element_by_css_selector('input[type="submit"]').click()
 
 print("Захожу в эдитор")
-driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1605031199999/timeZone/US%2FCentral")
+driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1605203999999/timeZone/US%2FCentral")
 # 56624
 # 42421
 print('Жду модалки ошибки')
@@ -159,14 +159,15 @@ print("Находим график и берем оттуда графики д�
 lis_1 = driver.find_element_by_id('eld-graph-events').find_elements_by_tag_name('li')
 
 print("Берем первые 8")
-lis = lis_1[:5]
+lis = lis_1[:8]
 
 # УДАЛЕНИЕ УЛЮЧЕЙ
 print("проходим по каждому дню")
 to_pass = 0  #определяем переменную по которому будем пропускать уже отмеченные
 for li in lis:
     # находим все ключи в одном дне
-    keys = li.find_elements_by_css_selector("text[class*='engine-click']")
+    svgs = li.find_elements_by_css_selector("svg")
+    keys = svgs[1].find_elements_by_css_selector("text[class*='engine-click']")
     print(len(keys))
     print("Проходим по ключам в обратном порядке")
     for key in reversed(keys):
@@ -174,8 +175,8 @@ for li in lis:
         if to_pass == 0:
             # print("Кликаю")
             time.sleep(0.5)
-            key.click()
-            # ActionChains(driver).move_to_element(key).click(key).perform()
+            # key.click()
+            ActionChains(driver).move_to_element(key).click(key).perform()
             time.sleep(0.5)
             driver.implicitly_wait(0)
             # print("пробую найти модалку выбора нескольких ключей")
@@ -246,6 +247,8 @@ while True:
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
                     driver.find_element_by_xpath("//*[contains(text(), 'Apply Filter')]").click()
 
+
+
                     print('вроде двинул')
                     break
 
@@ -309,4 +312,5 @@ while True:
 
 
         print("-------------------------")
+        break
 
