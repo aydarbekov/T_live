@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 import csv
+
 profiles = [
     "https://www.facebook.com/groups/1412264215689407/user/100047087719918/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
     "https://www.facebook.com/groups/1412264215689407/user/100047087719918/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
@@ -294,12 +295,12 @@ profiles = [
     "https://www.facebook.com/profile.php?id=100011614249413&comment_id=Y29tbWVudDozNDQ3NTgxMjIxOTg0ODgyXzM0NDgwODM5MzUyNjc5NDQ%3D&__cft__[0]=AZW4NfQ2pZAXR9xa8wNLw1HxSgrkQwCGy13qO2-xNTQNgGjDoTXRAS-LysU4fxZ5ekRe3yEotPwxfQgC48HbZvJdCucoI22itsZZGCbCgdPEZ4dPlkjO0sLn2efc-EqucHcToMJISkHPUPtNXdZQU4eP&__tn__=R]-R",
     "https://www.facebook.com/profile.php?id=100011614249413&comment_id=Y29tbWVudDozNDQ3NTgxMjIxOTg0ODgyXzM0NTA2OTI5NDE2NzM3MTA%3D&__cft__[0]=AZW4NfQ2pZAXR9xa8wNLw1HxSgrkQwCGy13qO2-xNTQNgGjDoTXRAS-LysU4fxZ5ekRe3yEotPwxfQgC48HbZvJdCucoI22itsZZGCbCgdPEZ4dPlkjO0sLn2efc-EqucHcToMJISkHPUPtNXdZQU4eP&__tn__=R]-R",
     "https://www.facebook.com/belle.bell.391?comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQwNTIxNzUzMzg0MjI%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
-
 ]
 prof_links = []
 
 for i in profiles:
     prof_links.append(i)
+
 
 
 # with open('fb_profile.csv', 'w', newline='') as file:
@@ -396,6 +397,7 @@ for profile in prof_links:
     profile_info = []
 
     print("Захожу на профиль")
+    print(prof_links)
 
     profile_link = profile
     profile_info.append(profile_link)
