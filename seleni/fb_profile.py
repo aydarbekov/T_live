@@ -30,54 +30,54 @@ profiles = [
     # "https://www.facebook.com/groups/123754788028526/user/100029426450508/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
     # "https://www.facebook.com/groups/1412264215689407/user/100055996001597/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
     # "https://www.facebook.com/groups/1412264215689407/user/100048292399983/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100044316316069/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100052039212273/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100053026155460/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NzczNjA4NjI5MDc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NjcxNDA4NjM5Mjk%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NzQ0MzA4NjMyMDA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/john.asangulov?comment_id=Y29tbWVudDoyMTEyNzU3NDc1NTIyNzM1XzIxMTMwNDg1Mjg4MjY5NjM%3D&__cft__[0]=AZWvMW_HYofAxJOigAhRRTeCgEkvhQaKNU6dUA1oa2bmHFzTSzDP-vkhNE5jlgBHk5SbgbDRbKx0PIY-UMXVFnvk3SW0euJUchi1I0xirul_G4wEhvUHlSXn_sEUk_1cf_I&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100044433015648/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100009251262485/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100047836039447/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100030625372408&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzMTQ5NTQwMTI0ODE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100030625372408&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzMTA1NjQwMTI5MjA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100051120860979/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100054954892473/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100048215745889/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzNzEzMTA2NzM1MTI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTY4MTg1MjA0Mjg3OTE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzNzEyNTQwMDY4NTE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100040463434000/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100027482616348&comment_id=Y29tbWVudDoyMTEyNzU3NDc1NTIyNzM1XzIxMTI3ODAwODg4NTM4MDc%3D&__cft__[0]=AZWvMW_HYofAxJOigAhRRTeCgEkvhQaKNU6dUA1oa2bmHFzTSzDP-vkhNE5jlgBHk5SbgbDRbKx0PIY-UMXVFnvk3SW0euJUchi1I0xirul_G4wEhvUHlSXn_sEUk_1cf_I&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100046813330589/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100056520451422/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/123754788028526/user/100022063850844/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100035497931809/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100040584642049/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/123754788028526/user/100044986877291/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100034889615042/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100046067181513/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100055470366477/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100028368672741/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100055268296421/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/123754788028526/user/100011323969669/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100008502152279/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/groups/123754788028526/user/100052012810242/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100016708142908&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTUwODI4NTUyMzUzNTQ%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
-    "https://www.facebook.com/groups/1412264215689407/user/100055739300891/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100054847721958&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ0OTM1OTczMjc5NTA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100054847721958&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ0OTUxMTczMjc3OTg%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100028397033764&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQwNjUxOTIwMDM3ODc%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNzcwOTQwMjYyNjc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxODkxMzQwMjUwNjM%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxOTc4MDQwMjQxOTY%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ1MTY2NDM5OTIzMTI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNTIzNjczNjIwNzM%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNjc2MTA2OTM4ODI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNjExOTQwMjc4NTc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNDg4MjczNjI0Mjc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
-    "https://www.facebook.com/profile.php?id=100054696455146&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQxNzc3ODg2NTkxOTQ%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100044316316069/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100052039212273/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100053026155460/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NzczNjA4NjI5MDc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NjcxNDA4NjM5Mjk%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100048709927922&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTI0NzQ0MzA4NjMyMDA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/john.asangulov?comment_id=Y29tbWVudDoyMTEyNzU3NDc1NTIyNzM1XzIxMTMwNDg1Mjg4MjY5NjM%3D&__cft__[0]=AZWvMW_HYofAxJOigAhRRTeCgEkvhQaKNU6dUA1oa2bmHFzTSzDP-vkhNE5jlgBHk5SbgbDRbKx0PIY-UMXVFnvk3SW0euJUchi1I0xirul_G4wEhvUHlSXn_sEUk_1cf_I&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100044433015648/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100009251262485/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100047836039447/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100030625372408&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzMTQ5NTQwMTI0ODE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100030625372408&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzMTA1NjQwMTI5MjA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100051120860979/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100054954892473/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100048215745889/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzNzEzMTA2NzM1MTI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTY4MTg1MjA0Mjg3OTE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100049691323681&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQzNzEyNTQwMDY4NTE%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100040463434000/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100027482616348&comment_id=Y29tbWVudDoyMTEyNzU3NDc1NTIyNzM1XzIxMTI3ODAwODg4NTM4MDc%3D&__cft__[0]=AZWvMW_HYofAxJOigAhRRTeCgEkvhQaKNU6dUA1oa2bmHFzTSzDP-vkhNE5jlgBHk5SbgbDRbKx0PIY-UMXVFnvk3SW0euJUchi1I0xirul_G4wEhvUHlSXn_sEUk_1cf_I&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100046813330589/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100056520451422/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/123754788028526/user/100022063850844/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100035497931809/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100040584642049/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/123754788028526/user/100044986877291/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100034889615042/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100046067181513/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100055470366477/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100028368672741/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100055268296421/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/123754788028526/user/100011323969669/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100008502152279/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/groups/123754788028526/user/100052012810242/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100016708142908&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTUwODI4NTUyMzUzNTQ%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
+    # "https://www.facebook.com/groups/1412264215689407/user/100055739300891/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100054847721958&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ0OTM1OTczMjc5NTA%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100054847721958&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ0OTUxMTczMjc3OTg%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100028397033764&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQwNjUxOTIwMDM3ODc%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNzcwOTQwMjYyNjc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxODkxMzQwMjUwNjM%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxOTc4MDQwMjQxOTY%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQ1MTY2NDM5OTIzMTI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNTIzNjczNjIwNzM%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNjc2MTA2OTM4ODI%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNjExOTQwMjc4NTc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100050070822367&comment_id=Y29tbWVudDozMTkxODYzOTAwOTI0MjUzXzMxOTQxNDg4MjczNjI0Mjc%3D&__cft__[0]=AZWaLXrCEso765B3SvFUkfW7Cyqg65OPTNfSJyYRFbgT3gvhnTXP4wcrdnotErJhWyTcXfPh8ivq0TX1Gh1YA6eFjQ6fInEpevsqwkMEEBRwJJyk9GEPO2XzINzc-lGFrnC8oQksSJPucEAB2EO-x_2E&__tn__=R]-R",
+    # "https://www.facebook.com/profile.php?id=100054696455146&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQxNzc3ODg2NTkxOTQ%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
     "https://www.facebook.com/groups/123754788028526/user/100038461320949/?__cft__[0]=AZUHfWk9med3hdTHbbaOfBEC169EvfagkIIi2hMU8cNFQCrTgI64NxOF1XUBEi6tdibxAvPbyY2xYIOPPFx-ByWOQjkHXeAiokmxDtyT2WiVy3HJ-DQp2oByF17E63h-yemrmwbOpuhC2lCCAMZCcjaU&__tn__=R]-R",
     "https://www.facebook.com/groups/1412264215689407/user/100047624311597/?__cft__[0]=AZXXEs2u6AFpA8hJ91_zdQnFiUQ54dMomjLbmyyikomUAeSmPlYkTaG80EwlO1v4ddv9goseQbqwl6E5V0PceYWrCZUmMqpWp3fdcRHZMMFx8OXOme0QqmFwf8WosewrNxioLyjCC9ibCKd6Ux6L4Oa8&__tn__=R]-R",
     "https://www.facebook.com/profile.php?id=100025038948748&comment_id=Y29tbWVudDozNDE0MDQ4NzE4NjcyMTAxXzM0MTQyMDEyMDg2NTY4NTI%3D&__cft__[0]=AZX5fQrQFrmEwMY5vX1g0CeKjHKEdxsh7pwNxSGOhxjW4PLDmrbN-x2klUKb_OuMZ6OzyWRz6ryqQtgAtTtNSicfdTg8JJKDQ36qtAYTomxbBbPka5IspJc6PN7_Pk90qOmwBYk5o-QhoCKJ9PkAcurx&__tn__=R]-R",
@@ -401,7 +401,7 @@ for profile in prof_links:
         profile_info = []
 
         print("Захожу на профиль")
-        print(prof_links)
+        print(profile)
 
         profile_link = profile
         profile_info.append(profile_link)
@@ -409,8 +409,9 @@ for profile in prof_links:
         driver.implicitly_wait(10)
         time.sleep(7)
         try:
+            print('недоступен ли')
             driver.implicitly_wait(0)
-            deleted = driver.find_element_by_xpath(".//*[contains(text(), 'Этот контент сейчас недоступен')]")
+            deleted = driver.find_element_by_xpath("//span[@class='d2edcug0 hpfvmrgz qv66sw1b c1et5uql gk29lw5a a8c37x1j keod5gw0 nxhoafnm aigsh9s9 d9wwppkn fe6kdd0r mau55g9w c8b282yb hrzyx87i o3w64lxj b2s5l15y hnhda86s m9osqain oqcyycmt']")
             driver.implicitly_wait(0)
             profile_info.append('НЕ ДОСТУПЕН')
             with open('fb_profile.csv', 'a+', newline='') as file:
@@ -420,6 +421,7 @@ for profile in prof_links:
         except:
             pass
         try:
+            time.sleep(3)
             print('try')
             full_profile = driver.find_element_by_css_selector('a[aria-label="Посмотреть основной профиль"]').click()
             time.sleep(7)
@@ -447,23 +449,26 @@ for profile in prof_links:
         except:
             scroll_to_down(post_divs, 2)
             try:
-                last_post = driver.find_element_by_xpath(
-                    "//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()]")
-                time_post = last_post.find_element_by_css_selector(
-                    'a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
+                print('1ая попытка')
+                last_post = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()]")
+                time_post = last_post.find_element_by_css_selector('a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
             except:
+                print('2ая попытка')
                 last_post = driver.find_element_by_xpath(
                     "//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()-3]")
                 time_post = last_post.find_element_by_css_selector(
                     'a[class="oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw"]')
 
+            driver.execute_script(f"window.scrollTo(0, 0);")
             hover = ActionChains(driver).move_to_element(time_post)
             hover.perform()
             time.sleep(1)
             try:
+                print('ищу черный див')
                 time_full = driver.find_element_by_css_selector(
                     'span[class="d2edcug0 hpfvmrgz qv66sw1b c1et5uql gk29lw5a a8c37x1j keod5gw0 nxhoafnm aigsh9s9 tia6h79c fe6kdd0r mau55g9w c8b282yb iv3no6db e9vueds3 j5wam9gi knj5qynh oo9gr5id hzawbc8m"]')
             except:
+                print("не нашел черный див")
                 try:
                     time_icon = last_post.find_element_by_css_selector(
                         'span[class="tojvnm2t a6sixzi8 abs2jz4q a8s20v7p t1p8iaqh k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y iyyx5f41"]')
@@ -698,7 +703,7 @@ for profile in prof_links:
     except:
         print('какая то ошибка и идем дальше')
         with open('error_p.csv', 'a+', newline='') as file:
-            writer = csv.writer(file, delimiter='|')
-            writer.writerow(profile)
+            file.write("\n")
+            file.write(profile)
         continue
 
