@@ -15,6 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import csv
 
+
 all_rows_not_parsed = []
 all_rows = []
 
@@ -34,9 +35,6 @@ for row in all_rows_not_parsed:
     all_rows.append(row)
     asd += 1
     print(asd)
-
-
-
 
 
 
@@ -155,6 +153,15 @@ for row in all_rows:
         driver.get(row[1])
         driver.implicitly_wait(10)
         time.sleep(7)
+        try:
+            short_info = driver.find_element_by_xpath("//div[@class='sjgh65i0'][1]/div[@class='j83agx80 l9j0dhe7 k4urcfbm']//div[@class='sej5wr8e']")
+            profile_info.append(short_info.text)
+            print(short_info.text)
+            print("Try short info")
+        except:
+            profile_info.append('not')
+            print('Not short info')
+        time.sleep(3)
         try:
             print('недоступен ли')
             driver.implicitly_wait(0)
@@ -441,7 +448,7 @@ for row in all_rows:
         print('Нашел кликаю друзей')
 
         friends_btn.click()
-        time.sleep(1)
+        time.sleep(2)
 
         try:
             driver.find_element_by_xpath(".//*[contains(text(), 'Все друзья')]")
