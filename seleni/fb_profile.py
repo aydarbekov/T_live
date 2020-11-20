@@ -25,6 +25,7 @@ with open('all_com.csv', 'r', newline='') as file:
         all_rows_not_parsed.append(row)
 
 asd = 0
+repeated = 0
 for row in all_rows_not_parsed:
     if 'php?id' in row[1] and '&' in row[1]:
         splited = row[1].split('&')
@@ -32,13 +33,17 @@ for row in all_rows_not_parsed:
     elif 'groups' in row[1]:
         splited = row[1].split('/?__cft__')
         row[1] = splited[0]
+    else:
+        splited = row[1].split('?')
+        row[1] = splited[0]
     all_rows.append(row)
+    print(row[1])
     asd += 1
     print(asd)
 
 
 
-prof_links = []
+repeated_links = []
 errored_links = []
 
 
@@ -61,7 +66,7 @@ def parse_info(xpath):
     profile_info.append(infos)
 
 
-def scroll_to_down(divs, time_plus):
+def scroll_to_down(divs, time_plus, ogr):
     time_wait = 2
     retry = 0
     while True:
@@ -70,14 +75,15 @@ def scroll_to_down(divs, time_plus):
         driver.execute_script(f"window.scrollTo(0, (document.body.scrollHeight)/2);")
         driver.execute_script(f"window.scrollTo(0, document.body.scrollHeight);")
 
-        time.sleep(time_wait)
+        time.sleep(time_wait + time_plus)
         new_p_height = driver.execute_script("return document.body.scrollHeight;")
         print(new_p_height)
         print(p_height == new_p_height)
         objects = driver.find_elements_by_xpath(divs)
         print(len(objects))
-        if len(objects) > 100:
-            break
+        if ogr == 'posts':
+            if len(objects) > 100:
+                break
         #     time_wait = 5 + time_plus
         # elif len(objects) > 1000:
         #     time_wait = 7 + time_plus
@@ -140,14 +146,25 @@ count_row = 0
 for row in all_rows:
     count_row += 1
     print(count_row)
+    # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # if count_row < 730:
+    #     continue
     try:
-        if row[1] not in prof_links:
-            prof_links.append(row[1])
-        else:
-            continue
+        print(row[1])
+        print(repeated_links)
         profile_info = []
         for elem in row:
             profile_info.append(elem)
+        if row[1] not in repeated_links:
+            repeated_links.append(row[1])
+        else:
+            print('дубликат иду дальше')
+            repeated += 1
+            print(repeated, 'Дубликатов')
+            with open('fb_profile.csv', 'a+', newline='') as file:
+                writer = csv.writer(file, delimiter='|')
+                writer.writerow(profile_info)
+            continue
         print("Захожу на профиль")
         print(row[1])
         driver.get(row[1])
@@ -178,15 +195,37 @@ for row in all_rows:
         try:
             time.sleep(3)
             print('try')
-            full_profile = driver.find_element_by_css_selector('a[aria-label="Посмотреть основной профиль"]').click()
+            full_profile = driver.find_element_by_css_selector('a[aria-label="Посмотреть основной профиль"]')
+            try:
+                short_info = driver.find_element_by_xpath(
+                    "//div[@class='sjgh65i0'][1]/div[@class='j83agx80 l9j0dhe7 k4urcfbm']//div[@class='sej5wr8e']")
+                profile_info.append(short_info.text)
+                print("Нашел инфо с какого в группе")
+                print(short_info.text)
+            except:
+                print('Нет инфо о группе')
+                profile_info.append('not')
+            full_profile.click()
             time.sleep(7)
 
         except:
+            print('Нет инфо о группе')
+            profile_info.append('not')
             print('pass')
+
             pass
 
 
         time.sleep(1)
+        try:
+            short_info_in_main = driver.find_element_by_xpath(".//*[contains(text(), 'Краткая информация')]/../../../../../../../..")
+            registration = short_info_in_main.find_element_by_xpath(".//*[contains(text(), 'На Facebook с:')]")
+            profile_info.append(registration.text)
+            print(registration.text)
+        except:
+            print('Нет даты регистрации')
+            profile_info.append('Нет даты регистрации')
+
         name_h1 = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 pfnyh3mw taijpn5t gs1a9yip owycx6da btwxx1t3 ihqw7lf3 cddn0xzi']")
         print(name_h1.text)
         profile_info.append(name_h1.text)
@@ -200,7 +239,7 @@ for row in all_rows:
             profile_info.append('0')
             profile_info.append(post.text)
         except:
-            scroll_to_down(post_divs, 2)
+            scroll_to_down(post_divs, 2, 'posts')
             try:
                 print('1ая попытка')
                 last_post = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb d2edcug0 hpfvmrgz gile2uim buofh1pr g5gj957u aov4n071 oi9244e8 bi6gxh9e h676nmdw aghb5jc5']/div[last()]")
@@ -427,7 +466,7 @@ for row in all_rows:
             driver.find_element_by_xpath(".//*[contains(text(), 'Отметки \"Нравится\"')]").click()
             time.sleep(1)
             likes = "//a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 a8c37x1j p7hjln8o kvgmc6g5 cxmmr5t8 sjgh65i0 hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8']"
-            scroll_to_down(likes, 0)
+            scroll_to_down(likes, 0, '')
             likes_sel = driver.find_elements_by_xpath(likes)
             for like in likes_sel:
                 print(like.get_attribute('href'))
@@ -453,7 +492,7 @@ for row in all_rows:
         try:
             driver.find_element_by_xpath(".//*[contains(text(), 'Все друзья')]")
             friends = "//div[@class='sjgh65i0'][1]/div/div/div/div[@class='j83agx80 btwxx1t3 lhclo0ds i1fnvgqd']/div[@class='bp9cbjyn ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi n1f8r23x rq0escxv j83agx80 bi6gxh9e discj3wi hv4rvrfc ihqw7lf3 dati1w0a gfomwglr']/div[@class='buofh1pr hv4rvrfc']/div[1]/a"
-            scroll_to_down(friends, 0)
+            scroll_to_down(friends, 0, '')
             friends = driver.find_elements_by_xpath("//div[@class='sjgh65i0'][1]/div/div/div/div[@class='j83agx80 btwxx1t3 lhclo0ds i1fnvgqd']/div[@class='bp9cbjyn ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi n1f8r23x rq0escxv j83agx80 bi6gxh9e discj3wi hv4rvrfc ihqw7lf3 dati1w0a gfomwglr']/div[@class='buofh1pr hv4rvrfc']/div[1]/a")
             for friend in friends:
                 print(friend.get_attribute('href'))

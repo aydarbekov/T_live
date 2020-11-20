@@ -125,7 +125,7 @@ time.sleep(0.2)
 driver.find_element_by_css_selector('input[type="submit"]').click()
 
 print("Захожу в эдитор")
-driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1605203999999/timeZone/US%2FCentral")
+driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1605808799999/timeZone/US%2FCentral")
 # 56624
 # 42421
 print('Жду модалки ошибки')
@@ -246,15 +246,20 @@ while True:
                     time.sleep(2)
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
                     driver.find_element_by_xpath("//*[contains(text(), 'Apply Filter')]").click()
+                    time.sleep(1)
+                    print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
+                    time_input_hour = driver.find_element_by_xpath("//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                    time_input_minute = driver.find_element_by_xpath("//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
 
-
-
+                    time_input_hour.send_keys((difference // 60) * -1)
+                    time_input_minute.send_keys((difference % 60) * -1)
+                    driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
                     print('вроде двинул')
                     break
 
                     shift_btn = driver.find_element_by_css_selector('button[title="Shift"]')
 
-                    print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
+
                 elif all_in_minute > (2040 + random_int):
                     difference = all_in_minute - (2040 + random_int)
                     from_to_btns = driver.find_element_by_css_selector(
