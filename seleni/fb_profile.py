@@ -15,31 +15,35 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 import csv
 
+import os
 
 all_rows_not_parsed = []
-all_rows = []
+all_rows = [
+'https://www.facebook.com/groups/1412264215689407/permalink/2670444626538020/|https://www.facebook.com/groups/1412264215689407/user/100020970652822|Алтынкыз Абдразакова|https://l.facebook.com/l.php?u=https%3A%2F%2Fmedia1.tenor.co%2Fimages%2F58a5273986386cbdb9ee295c7065f003%2Ftenor.gif%3Fitemid%3D16111463%26fbclid%3DIwAR2_TSIwLHvJgpYadFpO0iNk1A562sFBAY4P_NSgcvoNW7j88seasaRZi3o&h=AT299j0XNTv_ZJ8MzEle44Nd1P5_akr6UqpOcPM1qQni4xjfSc2wYYHstPJvebs6f0sbCE9DKrEOZGzK3S2mGlOzEk6gVUTzVAOzR7AJ0K9l9j3lDwq31h3nq0PHItotQvkVpP9Q&__tn__=R]-R&c[0]=AT1GiuN-A_9kUedkQxjrfXwNdKT3EYJswtCFkeDQGDxQPkAb5vqTwrpyaSiZc4ad1m9mISDKmh1iBSatbuxh1T2j5fUe66y1jygs1q8479vgh8gnR-aXAXU1H4saDW33b1nFFcCL6XzCz0eSNACQ70ZCxt6P4txQSm8|27 октября |6:03:00 PM|---|1|1',
+'https://www.facebook.com/azattyk.org/posts/3191863900924253|https://www.facebook.com/profile.php?id=100024089988364|Назарбаев Касым|Садыр алга эл сиз менен|27 октября |8:50:00 AM|---|1|1',
+]
 
-with open('all_com.csv', 'r', newline='') as file:
-    rows = csv.reader(file, delimiter='|')
-    for row in rows:
-        all_rows_not_parsed.append(row)
+# with open('all_com.csv', 'r', newline='') as file:
+#     rows = csv.reader(file, delimiter='|')
+#     for row in rows:
+#         all_rows_not_parsed.append(row)
 
 asd = 0
 repeated = 0
-for row in all_rows_not_parsed:
-    if 'php?id' in row[1] and '&' in row[1]:
-        splited = row[1].split('&')
-        row[1] = splited[0]
-    elif 'groups' in row[1]:
-        splited = row[1].split('/?__cft__')
-        row[1] = splited[0]
-    else:
-        splited = row[1].split('?')
-        row[1] = splited[0]
-    all_rows.append(row)
-    print(row[1])
-    asd += 1
-    print(asd)
+# for row in all_rows_not_parsed:
+#     if 'php?id' in row[1] and '&' in row[1]:
+#         splited = row[1].split('&')
+#         row[1] = splited[0]
+#     elif 'groups' in row[1]:
+#         splited = row[1].split('/?__cft__')
+#         row[1] = splited[0]
+#     else:
+#         splited = row[1].split('?')
+#         row[1] = splited[0]
+#     all_rows.append(row)
+#     print(row[1])
+#     asd += 1
+#     print(asd)
 
 
 
@@ -124,8 +128,8 @@ driver.get("https://www.facebook.com")
 driver.implicitly_wait(10)
 # time.sleep(2)
 
-print('Жму на закрытие окоша модалки')
-WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
+# print('Жму на закрытие окоша модалки')
+# WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
 
 driver.implicitly_wait(10)
 time.sleep(1)
@@ -133,8 +137,10 @@ time.sleep(1)
 print("Логинюсь")
 # driver.find_element_by_name('email').send_keys('azamatsatynbekov@gmail.com')
 # driver.find_element_by_name('pass').send_keys('aselsatkotoma123')
-driver.find_element_by_name('email').send_keys('akyl.aydarbekov@gmail.com')
-driver.find_element_by_name('pass').send_keys('sprite05')
+driver.find_element_by_name('email').send_keys('kyrgyzbek1992@gmail.com')
+driver.find_element_by_name('pass').send_keys('kyrgyzbek')
+# driver.find_element_by_name('email').send_keys('Amalia Turgunbaeva')
+# driver.find_element_by_name('pass').send_keys('akkauntt77')
 
 print("Отправляю форму")
 time.sleep(2)
@@ -144,6 +150,10 @@ driver.implicitly_wait(10)
 time.sleep(2)
 count_row = 0
 for row in all_rows:
+
+    print(row)
+    row = row.split('|')
+
     count_row += 1
     print(count_row)
     # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -321,6 +331,13 @@ for row in all_rows:
                 img = driver.find_element_by_css_selector('img[class="ji94ytn4 r9f5tntg d2edcug0"]')
                 width = driver.execute_script("return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalWidth")
                 height = driver.execute_script("return document.getElementsByClassName('ji94ytn4 r9f5tntg d2edcug0')[0].naturalHeight")
+                print(img.get_attribute('src'))
+                profile_info.append(img.get_attribute('src'))
+                print(width)
+                print(height)
+                profile_info.append(str(width) + ' x ' + str(height))
+                driver.back()
+                time.sleep(2)
             except:
                 time.sleep(3)
                 img = driver.find_element_by_css_selector('img[class="ji94ytn4 r9f5tntg d2edcug0"]')
@@ -338,6 +355,7 @@ for row in all_rows:
             profile_info.append('0х0')
 
         # Парсинг инфо
+        print('Парсинг инфо начал')
         driver.execute_script(f"window.scrollTo(0, 0);")
         time.sleep(2)
         infoblock = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t g5gj957u d2edcug0 hpfvmrgz rj1gh0hx buofh1pr']/div[@class='tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p']/div[@class='cb02d2ww ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm du4w35lb lzcic4wl']/div[@class='soycq5t1 l9j0dhe7']/div[@class='i09qtzwb rq0escxv n7fi1qx3 pmk7jnqg j9ispegn kr520xx4']/a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 pq6dq46d p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl l9j0dhe7 abiwlrkh p8dawk7l dwo3fsh8 ow4ym5g4 auili1gw mf7ej076 gmql0nx0 tkr6xdv7 bzsjyuwj cb02d2ww j1lvzwm4'][2]/div[@class='bp9cbjyn rq0escxv j83agx80 pfnyh3mw frgo5egb l9j0dhe7 cb02d2ww hv4rvrfc dati1w0a']")
@@ -481,6 +499,8 @@ for row in all_rows:
         # time.sleep(3)
         profiles_friends = []
         driver.execute_script(f"window.scrollTo(0, 0);")
+        hover = ActionChains(driver).move_to_element(infoblock)
+        hover.perform()
         print('Ищу кнопку друзей')
         time.sleep(1)
         friends_btn = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t g5gj957u d2edcug0 hpfvmrgz rj1gh0hx buofh1pr']/div[@class='tojvnm2t a6sixzi8 k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y l9j0dhe7 iyyx5f41 a8s20v7p']/div[@class='cb02d2ww ni8dbmo4 stjgntxs l9j0dhe7 k4urcfbm du4w35lb lzcic4wl']/div[@class='soycq5t1 l9j0dhe7']/div[@class='i09qtzwb rq0escxv n7fi1qx3 pmk7jnqg j9ispegn kr520xx4']/a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 pq6dq46d p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl l9j0dhe7 abiwlrkh p8dawk7l dwo3fsh8 ow4ym5g4 auili1gw mf7ej076 gmql0nx0 tkr6xdv7 bzsjyuwj cb02d2ww j1lvzwm4'][3]")
@@ -508,9 +528,10 @@ for row in all_rows:
             writer = csv.writer(file, delimiter='|')
             writer.writerow(profile_info)
     except Exception as e:
+        os.system('play --no-show-progress --null --channels 1 synth %s sine %f' % (0.3, 400))
         print(e)
         print('какая то ошибка и идем дальше')
         with open('error_p.csv', 'a+', newline='') as file:
-            file.write("\n")
-            file.write(row[1])
+            writer = csv.writer(file, delimiter='|')
+            writer.writerow(row)
 

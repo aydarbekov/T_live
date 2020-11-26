@@ -16,7 +16,7 @@ option.add_argument("--disable-infobars")
 option.add_argument("start-maximized")
 # option.add_argument("--disable-extensions")
 # option.add_argument("--headless")
-# option.add_argument("--window-size=1325x744")
+option.add_argument("--window-size=1325x744")
 # option.add_argument("--remote-debugging-port=9221")
 # Pass the argument 1 to allow and 2 to block
 option.add_experimental_option("prefs", {
@@ -125,7 +125,7 @@ time.sleep(0.2)
 driver.find_element_by_css_selector('input[type="submit"]').click()
 
 print("Захожу в эдитор")
-driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1605808799999/timeZone/US%2FCentral")
+driver.get("https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/1606327199999/timeZone/US%2FCentral")
 # 56624
 # 42421
 print('Жду модалки ошибки')
@@ -167,38 +167,78 @@ to_pass = 0  #определяем переменную по которому б
 for li in lis:
     # находим все ключи в одном дне
     svgs = li.find_elements_by_css_selector("svg")
-    keys = svgs[1].find_elements_by_css_selector("text[class*='engine-click']")
-    print(len(keys))
+    keys_parents = svgs[1].find_elements_by_css_selector("g[class*='engine-events'] > g")
+    # keys_parents = engine_events.find_elements_by_css_selector("g")
+    print(len(keys_parents))
     print("Проходим по ключам в обратном порядке")
-    for key in reversed(keys):
+    for keys_parent in reversed(keys_parents):
+        print(keys_parent.text)
         # условие - если наша переменная равна нулю то кликаем а если больше то пропускаем
-        if to_pass == 0:
-            # print("Кликаю")
-            time.sleep(0.5)
-            # key.click()
-            ActionChains(driver).move_to_element(key).click(key).perform()
-            time.sleep(0.5)
-            driver.implicitly_wait(0)
-            # print("пробую найти модалку выбора нескольких ключей")
-            try:
-                driver.find_element_by_xpath("//div[@class='form-group form-check']/label[@ class ='form-check-label']")
-                driver.implicitly_wait(0)
-                # print("Нашел, считаю сколько ключей можно кликнуть в модалке")
-                selects = driver.find_elements_by_xpath(
-                    "//div[@class='form-group form-check']/label[@ class ='form-check-label']")
-                # print("нашел ", len(selects), " и кликаю")
-                # к переменной прибавляем кол-во скольких ключей отметили за вычетом одного которого отметили уже
-                to_pass += len(selects) - 1
-                for select in selects:
-                    select.click()
-                driver.find_element_by_xpath("//*[contains(text(), 'Close')]").click()
-            except:
-                # print('Ключ один')
-                pass
-        else:
-            # print("Уже отмечен иду дальше")
-            to_pass -= 1
+        # print("Кликаю")
+        # time.sleep(0.5)
+        # key.click()
+        # ActionChains(driver).move_to_element_with_offset(key, 1, 1).click().perform()
+        # key = keys_parent.find_element_by_css_selector("text[class*='engine-click']")
+        key = keys_parent.get_attribute('data-id')
+        print('Нашел ключ смотрю нет ли галочки и кликаю')
+        try:
+            print('ищу галочку')
+            # time.sleep(0.5)
+            driver.implicitly_wait(0.3)
+            check = keys_parent.find_element_by_css_selector("text[class*='arrow-check-selected']")
+            driver.implicitly_wait(0.3)
+            print('нашел галочку')
             continue
+        except:
+            pass
+
+        driver.execute_script(f"""
+        
+        var key_parent = document.querySelector('[data-id=\"{key}\"]');
+        var key_icon = key_parent.getElementsByTagName('text')[0]
+        var evt;
+        if (document.createEvent) {
+            '''{evt = document.createEvent("MouseEvents");
+            evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);}'''
+        }
+        (evt) ? key_icon.dispatchEvent(evt) : (key_icon.click && key_icon.click());
+        """)
+
+
+
+
+
+
+        print("КЛИКНУЛ И пробую найти модалку выбора нескольких ключей")
+        try:
+            driver.find_element_by_xpath("//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+            driver.implicitly_wait(0)
+            # print("Нашел, считаю сколько ключей можно кликнуть в модалке")
+            selects = driver.find_elements_by_xpath(
+                "//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+            # print("нашел ", len(selects), " и кликаю")
+            # к переменной прибавляем кол-во скольких ключей отметили за вычетом одного которого отметили уже
+            # to_pass += len(selects) - 1
+            for select in selects:
+                select.click()
+            driver.find_element_by_xpath("//*[contains(text(), 'Close')]").click()
+        except:
+            print('Ключ один')
+            pass
+            # try:
+            #     print('ищу галочку')
+            #     time.sleep(0.5)
+            #     check = keys_parent.find_element_by_css_selector("text[class*='arrow-check-selected']")
+            #     print('нашел галочку')
+            #     continue
+            # except:
+            #     print("не нашел галочку и кликаю еще раз")
+            #     ActionChains(driver).move_to_element_with_offset(key, 1, 2).click().perform()
+            print('кликнул')
+        # time.sleep(2)
+        # driver.implicitly_wait(0)
+
+
 driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
 WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
 
@@ -208,25 +248,44 @@ print("НАЧИНАЕМ СБОР И АНАЛИЗ ДАННЫХ")
 
 shift_btn = driver.find_element_by_css_selector('button[title="Shift"]').click()
 
-while True:
-    all_shifts = analise()
+# Функция двигания
 
-    for i in range(len(all_shifts)-1):
+
+def move():
+    # анализируем и находим шифты
+    all_shifts = analise()
+    # проходимся по каждому шифту кроме последнего
+    for i in range(len(all_shifts)):
         all_drives = 0
+        # проходимся по каждой линии шифта
         for j in range(len(all_shifts[i])):
+            # определяем линию
             obj = all_shifts[i][j]
+            # из линни вытаскиваем длительность, тип, х1 и дату линии
             duration, item_type, x1, item_date = obj.split('|')
+            # из длительности выводим часы и минуты
             hour, minute = duration.split(':')
+            # время переводим в минуты
             all_in_minute = (int(hour) * 60) + int(minute)
+
+            # если первый обьект шифта(отдых)...
             if j == 0:
                 print(duration, 'Отдых')
+                # определяем случайное число от 2 до 5
                 random_int = random.randint(2, 5)
-                if all_in_minute > (600 + random_int) and all_in_minute < 2040:
+                # если общее время линии больше 605 (10ч 5мин) и меньше 2040(34ч)
+
+                if all_in_minute > 605 and all_in_minute < 2040:
+                    # находим разницу длительности линии между общей длительностью и 10 ч + случ число от2 до 5
                     difference = all_in_minute - (600 + random_int)
                     print('двигаем')
+
+                    # находим и жмем кнопку выбора первой линии
                     from_to_btns = driver.find_element_by_css_selector('div[class="bulk-search ng-star-inserted"]').find_elements_by_css_selector('button[class="btn btn-sm btn-default"]')
                     from_to_btns[0].click()
                     time.sleep(2)
+
+                    # находим следующий обьект от которого начнем двигать и так же его парсим, находим его день и эту линию потом нажимаем
                     obj2 = all_shifts[i][j+1]
                     duration2, item_type2, x12, item_date2 = obj2.split('|')
                     day = driver.find_element_by_id('eld-graph-events').find_element_by_css_selector(f'li[data-date="{item_date2}"]')
@@ -236,37 +295,42 @@ while True:
                     print('ПРОБУЮ НАЖАТЬ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
 
+                    # находим последний обьект и так же его парсим, находим его день и эту линию потом нажимаем
                     obj3 = all_shifts[i][-1]
                     duration3, item_type3, x13, item_date3 = obj3.split('|')
                     day = driver.find_element_by_id('eld-graph-events').find_element_by_css_selector(f'li[data-date="{item_date3}"]')
                     line_to_move = day.find_element_by_css_selector(f"line[x1='{x13}']")
                     time.sleep(2)
-
                     from_to_btns[1].click()
                     time.sleep(2)
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
                     driver.find_element_by_xpath("//*[contains(text(), 'Apply Filter')]").click()
                     time.sleep(1)
+
+                    # находим поля для заполнения времени, вбиваем разницу, жмем на превью и ждем прогрузки затем повторяем функцию
                     print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
                     time_input_hour = driver.find_element_by_xpath("//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
                     time_input_minute = driver.find_element_by_xpath("//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
-
                     time_input_hour.send_keys((difference // 60) * -1)
                     time_input_minute.send_keys((difference % 60) * -1)
                     driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
                     print('вроде двинул')
-                    break
+                    WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
+                    move()
 
-                    shift_btn = driver.find_element_by_css_selector('button[title="Shift"]')
-
-
-                elif all_in_minute > (2040 + random_int):
+                elif all_in_minute > 2045:
+                    # находим разницу длительности линии между общей длительностью и 10 ч + случ число от2 до 5
                     difference = all_in_minute - (2040 + random_int)
+                    print('двигаем')
+
+                    # находим и жмем кнопку выбора первой линии
                     from_to_btns = driver.find_element_by_css_selector(
                         'div[class="bulk-search ng-star-inserted"]').find_elements_by_css_selector(
                         'button[class="btn btn-sm btn-default"]')
                     from_to_btns[0].click()
                     time.sleep(2)
+
+                    # находим следующий обьект от которого начнем двигать и так же его парсим, находим его день и эту линию потом нажимаем
                     obj2 = all_shifts[i][j + 1]
                     duration2, item_type2, x12, item_date2 = obj2.split('|')
                     day = driver.find_element_by_id('eld-graph-events').find_element_by_css_selector(
@@ -277,45 +341,55 @@ while True:
                     print('ПРОБУЮ НАЖАТЬ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
 
+                    # находим последний обьект и так же его парсим, находим его день и эту линию потом нажимаем
                     obj3 = all_shifts[i][-1]
                     duration3, item_type3, x13, item_date3 = obj3.split('|')
                     day = driver.find_element_by_id('eld-graph-events').find_element_by_css_selector(
                         f'li[data-date="{item_date3}"]')
                     line_to_move = day.find_element_by_css_selector(f"line[x1='{x13}']")
                     time.sleep(2)
-
                     from_to_btns[1].click()
                     time.sleep(2)
-
                     ActionChains(driver).move_to_element(line_to_move).click().perform()
-                    time.sleep(2)
                     driver.find_element_by_xpath("//*[contains(text(), 'Apply Filter')]").click()
+                    time.sleep(1)
 
-                    print('вроде двинул')
-                    break
+                    # находим поля для заполнения времени, вбиваем разницу, жмем на превью и ждем прогрузки затем повторяем функцию
                     print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
+                    time_input_hour = driver.find_element_by_xpath(
+                        "//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                    time_input_minute = driver.find_element_by_xpath(
+                        "//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                    time_input_hour.send_keys((difference // 60) * -1)
+                    time_input_minute.send_keys((difference % 60) * -1)
+                    driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
+                    print('вроде двинул')
+                    WebDriverWait(driver, 100).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
+                    move()
+
             else:
                 if item_type == 'D':
                     all_drives += all_in_minute
-        print(all_drives // 60, ':', all_drives % 60, "общий драйв")
-        drive_dif = 660 - all_drives
-
-        print(f"можно добавить {drive_dif // 60} часов и {drive_dif % 60} минут")
-        for b in range(len(all_shifts[i+1])):
-            obj = all_shifts[i][b]
-            duration, item_type, x1, item_date = obj.split('|')
-            hour, minute = duration.split(':')
-            all_in_minute = (int(hour) * 60) + int(minute)
-            if item_type == 'D':
-                print('Длинна первого драйва ',  all_in_minute // 60, ':', all_in_minute % 60)
-                if all_in_minute <= drive_dif:
-                    print("Сдвигаем")
-                    can_add = drive_dif - all_in_minute
-                    print('остается еще ', can_add // 60, ':', can_add % 60)
-                else:
-                    break
-
-
-        print("-------------------------")
-        break
-
+        # print(all_drives // 60, ':', all_drives % 60, "общий драйв шифта")
+        # drive_dif = 660 - all_drives
+        #
+        # print(f"можно добавить {drive_dif // 60} часов и {drive_dif % 60} минут")
+        # for b in range(len(all_shifts[i+1])):
+        #     obj = all_shifts[i][b]
+        #     duration, item_type, x1, item_date = obj.split('|')
+        #     hour, minute = duration.split(':')
+        #     all_in_minute = (int(hour) * 60) + int(minute)
+        #     if item_type == 'D':
+        #         print('Длинна первого драйва ',  all_in_minute // 60, ':', all_in_minute % 60)
+        #         if all_in_minute <= drive_dif:
+        #             print("Сдвигаем")
+        #             can_add = drive_dif - all_in_minute
+        #             print('остается еще ', can_add // 60, ':', can_add % 60)
+        #         else:
+        #             break
+        #
+        #
+        # print("-------------------------")
+        # break
+move()
