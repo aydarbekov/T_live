@@ -57,7 +57,7 @@ def all_to_shifts(all_time):
                 minute =    int(minute.strip(' m)'))
             else:
                 hour = 0
-                minute = int(duration.strip(' m)'))
+                minute = int(duration.strip(' m<)'))
 
         duration = f'{hour}:{minute}'
         item_new = f'{duration}|{item_type}|{x1}|{item_date}'
@@ -193,21 +193,15 @@ for li in lis:
             pass
 
         driver.execute_script(f"""
-        
-        var key_parent = document.querySelector('[data-id=\"{key}\"]');
-        var key_icon = key_parent.getElementsByTagName('text')[0]
-        var evt;
-        if (document.createEvent) {
-            '''{evt = document.createEvent("MouseEvents");
-            evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);}'''
-        }
-        (evt) ? key_icon.dispatchEvent(evt) : (key_icon.click && key_icon.click());
-        """)
-
-
-
-
-
+            var key_parent = document.querySelector('[data-id=\"{key}\"]');
+            var key_icon = key_parent.getElementsByTagName('text')[0]
+            var evt;
+            if (document.createEvent) {
+                '''{evt = document.createEvent("MouseEvents");
+                evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);}'''
+            }
+            (evt) ? key_icon.dispatchEvent(evt) : (key_icon.click && key_icon.click());
+            """)
 
         print("КЛИКНУЛ И пробую найти модалку выбора нескольких ключей")
         try:
@@ -309,8 +303,11 @@ def move():
 
                     # находим поля для заполнения времени, вбиваем разницу, жмем на превью и ждем прогрузки затем повторяем функцию
                     print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
-                    time_input_hour = driver.find_element_by_xpath("//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
-                    time_input_minute = driver.find_element_by_xpath("//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                    # time_input_hour = driver.find_element_by_xpath("//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                    time_input_hour = driver.find_element_by_xpath("//div[@class='row form-group'][1]/div[@class='col-4']/div/input")
+                    # time_input_minute = driver.find_element_by_xpath("//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+
+                    time_input_minute = driver.find_element_by_xpath("//div[@class='row form-group'][2]/div[@class='col-4']/div/input")
                     time_input_hour.send_keys((difference // 60) * -1)
                     time_input_minute.send_keys((difference % 60) * -1)
                     driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
@@ -357,9 +354,11 @@ def move():
                     # находим поля для заполнения времени, вбиваем разницу, жмем на превью и ждем прогрузки затем повторяем функцию
                     print(f"Двигаем отдых на {difference // 60} часов и {difference % 60} минут")
                     time_input_hour = driver.find_element_by_xpath(
-                        "//div[@class='row form-group'][1]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                        "//div[@class='row form-group'][1]/div[@class='col-4']/div/input")
                     time_input_minute = driver.find_element_by_xpath(
-                        "//div[@class='row form-group'][2]/div[@class='col-4']/div/input[@class='form-control form-control-sm ng-untouched ng-pristine ng-valid']")
+                        "//div[@class='row form-group'][2]/div[@class='col-4']/div/input")
+                    time_input_hour.clear()
+                    time_input_minute.clear()
                     time_input_hour.send_keys((difference // 60) * -1)
                     time_input_minute.send_keys((difference % 60) * -1)
                     driver.find_element_by_xpath("//*[contains(text(), 'Preview')]").click()
