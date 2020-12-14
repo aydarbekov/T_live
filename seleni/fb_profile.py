@@ -18,18 +18,27 @@ import csv
 import os
 
 all_rows_not_parsed = []
+<<<<<<< HEAD
 all_rows = [
 'https://www.facebook.com/groups/1412264215689407/permalink/2670444626538020/|https://www.facebook.com/groups/1412264215689407/user/100020970652822|Алтынкыз Абдразакова|https://l.facebook.com/l.php?u=https%3A%2F%2Fmedia1.tenor.co%2Fimages%2F58a5273986386cbdb9ee295c7065f003%2Ftenor.gif%3Fitemid%3D16111463%26fbclid%3DIwAR2_TSIwLHvJgpYadFpO0iNk1A562sFBAY4P_NSgcvoNW7j88seasaRZi3o&h=AT299j0XNTv_ZJ8MzEle44Nd1P5_akr6UqpOcPM1qQni4xjfSc2wYYHstPJvebs6f0sbCE9DKrEOZGzK3S2mGlOzEk6gVUTzVAOzR7AJ0K9l9j3lDwq31h3nq0PHItotQvkVpP9Q&__tn__=R]-R&c[0]=AT1GiuN-A_9kUedkQxjrfXwNdKT3EYJswtCFkeDQGDxQPkAb5vqTwrpyaSiZc4ad1m9mISDKmh1iBSatbuxh1T2j5fUe66y1jygs1q8479vgh8gnR-aXAXU1H4saDW33b1nFFcCL6XzCz0eSNACQ70ZCxt6P4txQSm8|27 октября |6:03:00 PM|---|1|1',
 'https://www.facebook.com/azattyk.org/posts/3191863900924253|https://www.facebook.com/profile.php?id=100024089988364|Назарбаев Касым|Садыр алга эл сиз менен|27 октября |8:50:00 AM|---|1|1',
 ]
+=======
+all_rows = ['https://www.facebook.com/profile.php?id=100048545002956']
+>>>>>>> QWERTY
 
 # with open('all_com.csv', 'r', newline='') as file:
 #     rows = csv.reader(file, delimiter='|')
 #     for row in rows:
 #         all_rows_not_parsed.append(row)
+<<<<<<< HEAD
 
 asd = 0
 repeated = 0
+=======
+#
+# asd = 0
+>>>>>>> QWERTY
 # for row in all_rows_not_parsed:
 #     if 'php?id' in row[1] and '&' in row[1]:
 #         splited = row[1].split('&')
@@ -37,17 +46,25 @@ repeated = 0
 #     elif 'groups' in row[1]:
 #         splited = row[1].split('/?__cft__')
 #         row[1] = splited[0]
+<<<<<<< HEAD
 #     else:
 #         splited = row[1].split('?')
 #         row[1] = splited[0]
 #     all_rows.append(row)
 #     print(row[1])
+=======
+#     all_rows.append(row)
+>>>>>>> QWERTY
 #     asd += 1
 #     print(asd)
 
 
 
+<<<<<<< HEAD
 repeated_links = []
+=======
+prof_links = []
+>>>>>>> QWERTY
 errored_links = []
 
 
@@ -130,6 +147,7 @@ driver.implicitly_wait(10)
 
 # print('Жму на закрытие окоша модалки')
 # WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
+<<<<<<< HEAD
 
 driver.implicitly_wait(10)
 time.sleep(1)
@@ -141,6 +159,16 @@ driver.find_element_by_name('email').send_keys('kyrgyzbek1992@gmail.com')
 driver.find_element_by_name('pass').send_keys('kyrgyzbek')
 # driver.find_element_by_name('email').send_keys('Amalia Turgunbaeva')
 # driver.find_element_by_name('pass').send_keys('akkauntt77')
+=======
+#
+# driver.implicitly_wait(10)
+# time.sleep(1)
+
+print("Логинюсь")
+driver.find_element_by_name('email').send_keys('azamatsatynbekov@gmail.com')
+driver.find_element_by_name('pass').send_keys('aselsatkotoma123')
+
+>>>>>>> QWERTY
 
 print("Отправляю форму")
 time.sleep(2)
@@ -176,8 +204,7 @@ for row in all_rows:
                 writer.writerow(profile_info)
             continue
         print("Захожу на профиль")
-        print(row[1])
-        driver.get(row[1])
+        driver.get(row)
         driver.implicitly_wait(10)
         time.sleep(7)
         try:
