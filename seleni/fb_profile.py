@@ -29,6 +29,8 @@ all_rows = [
 
 asd = 0
 repeated = 0
+
+
 # for row in all_rows_not_parsed:
 #     if 'php?id' in row[1] and '&' in row[1]:
 #         splited = row[1].split('&')
@@ -36,15 +38,20 @@ repeated = 0
 #     elif 'groups' in row[1]:
 #         splited = row[1].split('/?__cft__')
 #         row[1] = splited[0]
-#     all_rows.append(row)
-#     asd += 1
-#     print(asd)
 
+#     all_rows.append(row)
+
+
+#     else:
+#         splited = row[1].split('?')
+#         row[1] = splited[0]
+#     all_rows.append(row)
+#     print(row[1])
+#     all_rows.append(row)
 
 
 repeated_links = []
 errored_links = []
-
 
 
 
@@ -126,20 +133,14 @@ driver.implicitly_wait(10)
 # print('Жму на закрытие окоша модалки')
 # WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-cookiebanner="accept_button"]'))).click()
 
-driver.implicitly_wait(10)
-time.sleep(1)
+# driver.implicitly_wait(10)
+# time.sleep(1)
 
 print("Логинюсь")
-# driver.find_element_by_name('email').send_keys('azamatsatynbekov@gmail.com')
-# driver.find_element_by_name('pass').send_keys('aselsatkotoma123')
-# driver.find_element_by_name('email').send_keys('kyrgyzbek1992@gmail.com')
-# driver.find_element_by_name('pass').send_keys('kyrgyzbek')
-# driver.find_element_by_name('email').send_keys('Amalia Turgunbaeva')
-# driver.find_element_by_name('pass').send_keys('akkauntt77')
-# driver.find_element_by_name('email').send_keys('kyrgyzbek1992@gmail.com')
-# driver.find_element_by_name('pass').send_keys('kyrgyzbek')
-driver.find_element_by_name('email').send_keys('akyl.aydarbekov@gmail.com')
-driver.find_element_by_name('pass').send_keys('sprite05')
+driver.find_element_by_name('email').send_keys('azamatsatynbekov@gmail.com')
+driver.find_element_by_name('pass').send_keys('aselsatkotoma123')
+
+
 
 print("Отправляю форму")
 time.sleep(2)
