@@ -82,7 +82,7 @@ def all_to_shifts(all_time):
         print(shift)
 
     all_shifts.append(shift)
-    all_shifts = all_shifts[1:]
+    all_shifts = all_shifts[1:-1]
     return all_shifts
 
 
@@ -141,9 +141,9 @@ driver.get(f"https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timest
 print('Жду модалки ошибки')
 WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
 try:
-    driver.implicitly_wait(0)
-    WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'OK')]"))).click()
-    driver.implicitly_wait(0)
+    driver.implicitly_wait(5)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//div[@class='modal-footer']/*[contains(text(), 'OK')]"))).click()
+    driver.implicitly_wait(5)
     print('Дождался и кликнул')
 except TimeoutException:
     print('Нет ошибки')
@@ -209,10 +209,11 @@ for li in lis:
 
         print("КЛИКНУЛ И пробую найти модалку выбора нескольких ключей")
         try:
-            driver.find_element_by_xpath("//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+            time.sleep(1)
+            driver.find_element_by_xpath("//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             driver.implicitly_wait(0)
             selects = driver.find_elements_by_xpath(
-                "//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+                "//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             for select in selects:
                 select.click()
             driver.find_element_by_xpath("//*[contains(text(), 'Close')]").click()
@@ -248,10 +249,11 @@ for li in lis:
 
         print("КЛИКНУЛ И пробую найти модалку выбора нескольких ключей")
         try:
-            driver.find_element_by_xpath("//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+            time.sleep(2)
+            driver.find_element_by_xpath("//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             driver.implicitly_wait(0)
             selects = driver.find_elements_by_xpath(
-                "//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+                "//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             for select in selects:
                 select.click()
             driver.find_element_by_xpath("//*[contains(text(), 'Close')]").click()
@@ -286,10 +288,11 @@ for li in lis:
 
         print("КЛИКНУЛ И пробую найти модалку выбора нескольких ключей")
         try:
-            driver.find_element_by_xpath("//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+            time.sleep(1)
+            driver.find_element_by_xpath("//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             driver.implicitly_wait(0)
             selects = driver.find_elements_by_xpath(
-                "//div[@class='form-group form-check']/label[@ class ='form-check-label']")
+                "//div[@class='form-group form-check mb-2']/label[@class='form-check-label']")
             for select in selects:
                 select.click()
             driver.find_element_by_xpath("//*[contains(text(), 'Close')]").click()
@@ -312,11 +315,13 @@ print("НАЧИНАЕМ СБОР И АНАЛИЗ ДАННЫХ")
 
 
 def move():
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
     # анализируем и находим шифты
     shift_btn = driver.find_element_by_css_selector('button[title="Shift"]').click()
+
     all_shifts = analise()
     # проходимся по каждому шифту кроме последнего
-    for i in range(len(all_shifts)-2):
+    for i in range(len(all_shifts)-1):
         all_drives = 0
         # проходимся по каждой линии шифта
         for j in range(len(all_shifts[i])):
@@ -597,9 +602,11 @@ def move():
 
 
         print("-------------------------")
-    shift_btn = driver.find_element_by_css_selector('button[title="Shift"]').click()
     all_shifts = analise()
-    for i in range(len(all_shifts)-1):
+    shift_btn = driver.find_element_by_css_selector('button[title="Shift"]').click()
+    # WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
+    # all_shifts = analise()
+    for i in range(len(all_shifts)):
         # проходимся по каждой линии шифта
         for j in range(len(all_shifts[i])):
             # определяем линию
@@ -613,7 +620,6 @@ def move():
 
             # если первый обьект шифта(отдых)...
             if j == 0:
-                pass
                 print(duration, 'Отдых')
                 # определяем случайное число от 2 до 5
                 random_int = random.randint(2, 5)
@@ -684,6 +690,7 @@ def move():
                     duration2, item_type2, x12, item_date2 = obj2.split('|')
                     day = driver.find_element_by_id('eld-graph-events').find_element_by_css_selector(
                         f'li[data-date="{item_date2}"]')
+                    print('тут ли ошибка')
                     line_to_move = day.find_element_by_css_selector(f"line[x1='{x12}']")
                     print(line_to_move.get_attribute('x2'))
                     # line_to_move.click()
@@ -718,4 +725,6 @@ def move():
                     WebDriverWait(driver, 100).until(
                         EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
                     move()
+            else:
+                break
 move()
