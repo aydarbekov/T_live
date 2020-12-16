@@ -138,6 +138,7 @@ print("Захожу в эдитор")
 driver.get(f"https://trackensure.com/app/hos/#/eldHOS/editor/driver/42421/timestamp/{stamp}/timeZone/US%2FCentral")
 # 56624
 # 42421
+
 print('Жду модалки ошибки')
 WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='smooth-hover']")))
 try:
