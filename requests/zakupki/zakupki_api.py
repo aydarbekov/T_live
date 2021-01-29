@@ -97,7 +97,7 @@ viewstate_input = bs_html.find("input", {"name": "javax.faces.ViewState"})
 viewstate = viewstate_input['value']
 # print(viewstate)
 
-tender_start = 0
+tender_start = 3000
 
 while True:
     data2=f'javax.faces.partial.ajax=true&javax.faces.source=j_idt113%3Aj_idt114%3Atable&javax.faces.partial.execute=j_idt113%3Aj_idt114%3Atable&javax.faces.partial.render=j_idt113%3Aj_idt114%3Atable&javax.faces.behavior.event=page&javax.faces.partial.event=page&j_idt113%3Aj_idt114%3Atable_pagination=true&j_idt113%3Aj_idt114%3Atable_first=10&j_idt113%3Aj_idt114%3Atable_rows=10&j_idt113%3Aj_idt114%3Atable_skipChildren=true&j_idt113%3Aj_idt114%3Atable_encodeFeature=true&j_idt113=j_idt113&j_idt113%3Aj_idt114%3Atable_rppDD=10&j_idt113%3Aj_idt114%3Atable_rppDD=10&j_idt113%3Aj_idt114%3Atable_selection=&j_idt113%3Aj_idt114_activeIndex=0&javax.faces.ViewState={viewstate}'
@@ -110,7 +110,7 @@ while True:
     'javax.faces.partial.event': 'page',
     'j_idt113:j_idt114:table_pagination': 'true',
     'j_idt113:j_idt114:table_first': str(tender_start),
-    'j_idt113:j_idt114:table_rows': '10000',
+    'j_idt113:j_idt114:table_rows': '1000',
     'j_idt113:j_idt114:table_skipChildren': 'true',
     'j_idt113:j_idt114:table_encodeFeature': 'true',
     'j_idt113': 'j_idt113',
@@ -138,7 +138,7 @@ while True:
     print(cid)
     # page = s.post(f'http://zakupki.gov.kg/popp/view/order/list.xhtml?cid={cid}', data=data)
     page = load_link(f'http://zakupki.gov.kg/popp/view/order/list.xhtml?cid={cid}', data)
-    tender_start += 10000
+    tender_start += 1000
     root = ET.fromstring(page.text)
     bs_lxml = BeautifulSoup(root[0][0].text, 'html.parser')
     trs = bs_lxml.find_all('tr')
@@ -488,13 +488,20 @@ while True:
                                 winner_list.append(tenders_num.text)
                                 print(tenders_num.text)
                                 winner_list.append(winner_lot)
-                                print(winner_lot)
+                                print(winner_lot, 'dfdfdfdf')
                                 winner_name = winner.find_all('span')[0]
                                 winner_list.append(winner_name.text)
                                 print(winner_name.text)
-                                winner_status = winner.find_all('span')[1]
-                                winner_list.append(winner_status.text)
-                                print(winner_status.text)
+                                try:
+                                    winner_status = winner.find_all('span')[1]
+                                    winner_list.append(winner_status.text)
+                                    print(winner_status.text)
+                                except:
+                                    # winner_status_2 = tds_winners[3].find_all('li')
+                                    # winner_list.append(winner_status_2)
+                                    # print(winner_status_2)
+                                    winner_list.append('(Ожидается подтверждения)')
+                                    print('dfsfsd----------------------------------------------------------')
                                 winner_list.append(winners_sum)
                                 winner_list.append(winners_cancelled_prichina)
                                 winner_list.append(planed_sum)
